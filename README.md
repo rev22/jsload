@@ -1,7 +1,23 @@
-This is a Javascript loading function for Web browsers
+A minimal Javascript loading function for Web browsers
 
-Still untested and experimental.
+Note: still untested and experimental.
 
-Files:
-dist/jsload.js  - Hand-minified version, currently 255 bytes, easy to inline
-jsload.coffee   - More readable Coffeescript version
+Usage
+-----
+You can use the function this way:
+```
+  jsload(javascriptSource, function() { ... } )
+```
+
+If you use Coffeescript:
+```
+  jsload javascriptSource, -> ...
+```
+The callback function is called after your source has loaded.
+
+Files
+-----
+* dist/jsload.js
+  Hand-minified version, currently 255 bytes, easy to inline
+* jsload.coffee
+  More readable Coffeescript version
