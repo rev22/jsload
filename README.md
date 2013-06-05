@@ -31,4 +31,4 @@ Files
 Licensing terms
 ---------------
 
-The code is released into the Public Domain, and has no warraty, express or implied.  Although appreciated, no crediting is necessary.
+The code is released into the Public Domain, and has no warranty, express or implied.  Although appreciated, no crediting is necessary.
