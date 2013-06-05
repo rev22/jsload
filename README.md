@@ -5,7 +5,7 @@ Note: still untested and experimental.
 Usage
 -----
 
-The function needs to be inlined in your web page, or loaded as a Javascript source
+The function needs to be inlined in your web page, or loaded as a Javascript or Coffeescript source
 
 You can call the function this way:
 ```
@@ -27,3 +27,8 @@ Files
 
 * ```jsload.coffee``` Coffeescript source
 * ```dist/jsload.js``` Hand-minified Javascript, currently 255 bytes, easy to inline
+
+Licensing terms
+---------------
+
+The code is released into the Public Domain, and has no warraty, express or implied.  Although appreciated, no crediting is necessary.
