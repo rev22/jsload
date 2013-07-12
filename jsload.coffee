@@ -8,6 +8,6 @@
   y = 1
   x.onload = x.onreadystatechange = () ->
     if y and not @readyState or @readyState is 'complete'
-      y = !y
+      y = 0
       c()
   document.getElementsByTagName('head')[0].appendChild x
